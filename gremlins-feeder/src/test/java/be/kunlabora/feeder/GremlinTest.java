@@ -7,6 +7,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 import static java.util.Calendar.AUGUST;
+import static java.util.Calendar.getInstance;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class GremlinTest {
@@ -19,7 +20,7 @@ public class GremlinTest {
 
     @Test
     public void canEat_givenDayTime_thenCanEat() {
-        final Calendar calendar = Calendar.getInstance();
+        final Calendar calendar = getInstance();
         calendar.set(2018, AUGUST, 12, 16, 1);
         final Date eatingTime = calendar.getTime();
 
@@ -28,7 +29,7 @@ public class GremlinTest {
 
     @Test
     public void canEat_givenNightTime_thenCannotEat() {
-        final Calendar calendar = Calendar.getInstance();
+        final Calendar calendar = getInstance();
         calendar.set(2018, AUGUST, 12, 1, 1);
         final Date eatingTime = calendar.getTime();
 
