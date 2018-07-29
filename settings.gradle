@@ -1,0 +1,3 @@
+rootProject.name = 'agileDevTraining'
+include 'planes-trains-automobiles'
+
