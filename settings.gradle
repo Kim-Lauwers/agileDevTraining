@@ -1,4 +1,5 @@
 rootProject.name = 'agileDevTraining'
+include 'dice-game'
 include 'planes-trains-automobiles'
 include 'gremlins-feeder'
 include 'the-war'
