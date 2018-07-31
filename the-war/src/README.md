@@ -13,4 +13,5 @@ Two soldiers fight with each other by comparing weapon damage.
 The soldier with the strongest weapon wins-> if same then attacker wins. 
 Armies can engage in a war in which consecutive front men fight with each other. 
 The defeated soldier is removed from the army. 
+
 The winning army = “last man standing” formulae.
